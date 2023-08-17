@@ -14,13 +14,13 @@ sidebar:
 
     # Sidebar links
     email: yvanaillet@gmail.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    phone: +33 6 98 65 28 00
+    timezone: Europe/Paris Timezone
     citizenship:
     website: # blog.webjeda.com #do not add http://
     linkedin: yvanaillet
     xing: 
-    github: mrcanard
+    github: SoothingDuck
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -54,12 +54,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Interested in computer science and applied mathematics for a very long time, I spend the last years 10 years
+      of my career tackling problems with data in SQL, R and Python in major french companies in a result oriented fashion (driven by performance and functional quality).
+      I am currently on sabbatical leave and at a crossroad of my career in which I want to switch to functional
+      programming and more particularly Clojure as I figure it is what I like to do best in my current role, yet, as you probably know, large groups are more fond of Java, and I'm kind of an alien in this ecosystem.
+      
 education:
     title: Education
     info:
@@ -229,23 +228,26 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 2%
+      - name: SQL
+        level: 99%
 
-      - name: Javascript & jQuery
+      - name: R
         level: 98%
 
-      - name: Angular
+      - name: Python
+        level: 95%
+
+      - name: Clojure
+        level: 80%
+
+      - name: AWS
+        level: 70%
+
+      - name: Unix
         level: 98%
 
       - name: HTML5 & CSS
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 ############################################################################################################################################## #
 # footer: >																       #
