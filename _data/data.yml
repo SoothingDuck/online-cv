@@ -54,10 +54,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Interested in computer science and applied mathematics for a very long time, I spend the last years 10 years
-      of my career tackling problems with data in SQL, R and Python in major french companies in a result oriented fashion (driven by performance and functional quality).
-      I am currently on sabbatical leave and at a crossroad of my career in which I want to switch to functional
-      programming and more particularly Clojure as I figure it is what I like to do best in my current role, yet, as you probably know, large groups are more fond of Java, and I'm kind of an alien in this ecosystem.
+      Longtime nerd in computer science and applied mathematics, I
+      spend the last years 10 years of my career tackling problems
+      with data in SQL, R and Python in major french companies in a
+      result oriented fashion (driven by performance and functional
+      quality).  I am currently on sabbatical leave, and at a
+      crossroad of my career in which I want to switch to functional
+      programming and more particularly Clojure as I realized it is
+      what I like to do best in my current role.  I would be happy if
+      you gave me a chance to prove my competence in this field
+      so that I can work with you on real-life projects in Clojure.
       
 education:
     title: Education
@@ -77,43 +83,68 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Solution Architect
+        time: 2019 - Present
+        company: Enedis, France
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Datalab Technical Expert
+        time: 2015 - 2019
+        company: Enedis, France
+        details: |
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Teradata Expert
         time: 2014 - 2015
-        company: Google, London
+        company: Enedis, France
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Teradata Expert
+        time: 2008 - 2014
+        company: Bouygues Telecom, France
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Production Expert
+        time: 2006 - 2008
+        company: Bouygues Telecom, France
+        details: |
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Production Expert
+        time: 2005 - 2006
+        company: Bouygues Telecom, France
+        details: |
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Software Developper
+        time: 2004 - 2005
+        company: BNP Paribas, France
+        details: |
+          blah blah blah
+            - Truc important 1
+            - Truc important 2
+      - role: Software Developper
+        time: 2003 - 2004
+        company: N9UF Telecom, France
+        details: |
+          1st job as a developer with a French telecom operator, where
+          I discovered Perl and PHP (and still have fond memories of
+          Perl). Together with 2 other team members, I developed N9UF
+          Telecom's new prepaid card management portal.
+            - Perl, PHP
+            - Website development
+
+
+
 
 certifications:
       title: Certifications
