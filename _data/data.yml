@@ -9,8 +9,9 @@ sidebar:
 
     # Profile information
     name: Yvan Aillet
-    tagline: Data and Functionnal Programming Enthusiast
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Problem Solver and Clojure Enthusiast
+    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: 
 
     # Sidebar links
     email: yvanaillet@gmail.com
@@ -28,7 +29,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -42,28 +43,26 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Reading
           link:
 
-        - item: Snowboarding
+        - item: Cycling
           link:
 
-        - item: Cooking
+        - item: Piano + Music making
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Longtime nerd in computer science and applied mathematics, I
-      spend the last years 10 years of my career tackling problems
-      with data in SQL, R and Python in major french companies in a
-      result oriented fashion (driven by performance and functional
-      quality).  I am currently on sabbatical leave, and at a
-      crossroad of my career in which I want to switch to functional
-      programming and more particularly Clojure as I realized it is
-      what I like to do best in my current role.  I would be happy if
-      you gave me a chance to prove my competence in this field
-      so that I can work with you on real-life projects in Clojure.
+      Longtime learner who spent the last 15 years of its career
+      tackling problems with data in SQL, R, Python and Java in major
+      French companies and saving them lots of money in the process by
+      optimizing the performance of theirs systems and their code.
+      
+      Right now on sabbatical leave, Fell in love with Clojure and wishing to spent the next 15
+      years working with you to solve your problems.
+      
       
 education:
     title: Education
@@ -85,65 +84,44 @@ experiences:
     info:
       - role: Solution Architect
         time: 2019 - Present
-        company: Enedis, France
+        company: Teradata, France (for Enedis, France)
         details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
+          New role at Enedis in the datawarehouse architecture team dealing with production process after being promoted to Solution Architect at Teradata. Notable achievements :
+          - Proof of concept of tool in Clojure (with <a href="https://github.com/aphyr/clj-antlr">clj-antlr</a>) to detect problems in SQL join performance before they go to production : <b>prevented at least 2 unrequired product joins in production</b>
+          - Time projection of volume growth + resource consumption in time (in Python + PowerBI) : <b>Provided the customer enough information to make the educated decision to buy new Teradata nodes</b>
+          - Development of KPIs on Teradata hardware and critical data pipelines to give a better vision to upper management of what is really happening in the system they are paying for (prototype in R, industrialisation in Java + Grafana) : <b>Indicators became the go-to reference for management and product teams to see the bottlenecks in the system (and act on it !)</b>
+          - Architecture documentation as a code of the different data products (with PlantUML) : <b>With this documentation at least two product teams stopped maintaining obsoleted data pipeline which were still there only because of turnover and lack of useful documentation</b>
+          - Detection of hardware problem on an array of slow disk after a one week production crisis (Python + SQL) : <b>Disks changed, SLA back !</b>
+          - Training of junior developper to SQL best practices in a distributed environnments : <b>Fewer SQL mistakes reaching production</b>
+          - SQL optimisation of critical data pipelines and data products : <b>Reduction of processing time between 5% to 80% (rare cases)</b>
+
       - role: Datalab Technical Expert
-        time: 2015 - 2019
-        company: Enedis, France
+        time: 2014 - 2019
+        company: Teradata, France (for Enedis, France)
         details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
-      - role: Teradata Expert
-        time: 2014 - 2015
-        company: Enedis, France
-        details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
+          Work at Enedis Datalab department to carry out several experimental projects for internal customers before going into production, with great satisfaction from Enedis management.
+          (awarded at the end by a one shot 25% salary raise and the allocation of a company car along with regular salary increases)
+            - Redesign of SQL engine for aggregation of electricity consumers in France : <b>New engine could aggregate 1 year of data in the same time the former engine took to aggregate 1 week</b>
+            - Work with internal customer to optimize their adhoc SQL queries, R and Python scripts : <b>Sometimes 99% of time savings with the same output result</b>
+            - Training of internal customer and datalab developpers to SQL best practices in a distributed environnments and introduction to R and Python for data analysis: <b>More than 10 sessions with an average of 6 trainees each time</b>
+            - Development of a reactive Web App for Enedis strategy department in R Shiny to show the repartition of energy consumption : <b>Done in a week without prior Shiny knowledge with good customer feedback</b>
+              
       - role: Teradata Expert
         time: 2008 - 2014
         company: Bouygues Telecom, France
         details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
-      - role: Production Expert
-        time: 2006 - 2008
-        company: Bouygues Telecom, France
+          Designated to be trained on Teradata by one of the French experts, had to learn a lot in a short time yet enjoyed time a lot
+            - Optimization of SQL processes and data model developed by suppliers : <b>Saved a lot of money for Bouygues Telecom delaying costly upgrade of Teradata nodes</b>
+            - Optimization of the backup/restore architecture with To of data
+              
+            - Intervention in numerous production crisis, one being
+      - role: Early Career
+        time: 2003 - 2008
+        company: Bouygues Telecom, BNP Paribas and N9UF Telecom, France
         details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
-      - role: Production Expert
-        time: 2005 - 2006
-        company: Bouygues Telecom, France
-        details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
-      - role: Software Developper
-        time: 2004 - 2005
-        company: BNP Paribas, France
-        details: |
-          blah blah blah
-            - Truc important 1
-            - Truc important 2
-      - role: Software Developper
-        time: 2003 - 2004
-        company: N9UF Telecom, France
-        details: |
-          1st job as a developer with a French telecom operator, where
-          I discovered Perl and PHP (and still have fond memories of
-          Perl). Together with 2 other team members, I developed N9UF
-          Telecom's new prepaid card management portal.
-            - Perl, PHP
-            - Website development
-
-
+            - Bouygues Telecom : Various roles from Test analyst to Production Expert learning the importance of good code testing and that you don't want a lot to go wrong in production
+            - Altran (for BNP Paribas) : Software developper (Excel VBA) in trading room (a real fast paced environnement) in touch with traders
+            - Alten (for N9UF Telecom) : Software developer on prepaid phone card management portal with first real teamwork outside engineering school
 
 
 certifications:
@@ -190,75 +168,76 @@ certifications:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      There's nothing like getting your hands dirty to learn something new (like Clojure)
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Wikipedia Dump Analysis in Clojure 
+        link: "https://github.com/SoothingDuck/wikipedia-dump-extractor-clojure"
+        tagline: "Pretty much work in progress yet good to learn how to deal efficiently with huge data files (~xx Go in uncompressed form) in a reasonnable amount of time, do unit testing, and design command line interface"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Manic Miner Asset Extraction in Clojure
+        link: "https://github.com/SoothingDuck/manic-miner-extractor"
+        tagline: "The port of another projet done in python, to learn of to deal with binary files, image generation and clojure data structures"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      # - title: Tempo
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      # - title: Atom
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      # - title: Delta
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Clojure
+        level: 85%
+
       - name: SQL
         level: 99%
 
@@ -268,19 +247,16 @@ skills:
       - name: Python
         level: 95%
 
-      - name: Clojure
-        level: 80%
-
       - name: AWS
         level: 70%
 
       - name: Unix
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      # - name: HTML5 & CSS
+      #   level: 95%
 
-############################################################################################################################################## #
-# footer: >																       #
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> #
-# ############################################################################################################################################# #
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
