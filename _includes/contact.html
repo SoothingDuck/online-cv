@@ -3,13 +3,15 @@
 
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      <!-- <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a> -->
+      {{ sidebar.email }}
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      <!-- <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a> -->
+      {{ sidebar.phone }}
     </li>
     {% endif %}
 
@@ -21,7 +23,8 @@
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
+      <!-- <a href="">{{ sidebar.timezone }}</a> -->
+      {{ sidebar.timezone }}
     </li>
     {% endif %}
 
@@ -39,6 +42,7 @@
 
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <!-- <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a> -->
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
     </li>
     {% endif %}

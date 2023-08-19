@@ -60,8 +60,8 @@ career-profile:
       French companies and saving them lots of money in the process by
       optimizing the performance of theirs systems and their code.
       
-      Right now on sabbatical leave, Fell in love with Clojure and wishing to spent the next 15
-      years working with you to solve your problems.
+      Right now on sabbatical leave, fell in love with Clojure and wishing to spent the next 15
+      years solving your problems with it.
       
       
 education:
@@ -102,6 +102,7 @@ experiences:
           Work at Enedis Datalab department to carry out several experimental projects for internal customers before going into production, with great satisfaction from Enedis management.
           (awarded at the end by a one shot 25% salary raise and the allocation of a company car along with regular salary increases)
             - Redesign of SQL engine for aggregation of electricity consumers in France : <b>New engine could aggregate 1 year of data in the same time the former engine took to aggregate 1 week</b>
+            - Used Ansible to automate the deployment of some datalabs (like the aggregation SQL Engine) : <b>Went from a one day manual error prone deployement to 5 minutes click-button robust installation</b>
             - Work with internal customer to optimize their adhoc SQL queries, R and Python scripts : <b>Sometimes 99% of time savings with the same output result</b>
             - Training of internal customer and datalab developpers to SQL best practices in a distributed environnments and introduction to R and Python for data analysis: <b>More than 10 sessions with an average of 6 trainees each time</b>
             - Development of a reactive Web App for Enedis strategy department in R Shiny to show the repartition of energy consumption : <b>Done in a week without prior Shiny knowledge with good customer feedback</b>
@@ -110,11 +111,10 @@ experiences:
         time: 2008 - 2014
         company: Bouygues Telecom, France
         details: |
-          Designated to be trained on Teradata by one of the French experts, had to learn a lot in a short time yet enjoyed time a lot
+          Designated to be trained on Teradata by one of the French experts, had to learn a lot in a short time yet enjoyed it a lot
             - Optimization of SQL processes and data model developed by suppliers : <b>Saved a lot of money for Bouygues Telecom delaying costly upgrade of Teradata nodes</b>
-            - Optimization of the backup/restore architecture with To of data
-              
-            - Intervention in numerous production crisis, one being
+            - Optimization of the disaster recovery architecture from a performance and a coverage point of view : <b>Gaps where found and it proved useful during a crisis where all production data had been wiped</b>
+            - Powerpoint reports to management generated with python and SQL : <b>Very popular with management and led to actual decision being taken</b>
       - role: Early Career
         time: 2003 - 2008
         company: Bouygues Telecom, BNP Paribas and N9UF Telecom, France
@@ -127,48 +127,48 @@ experiences:
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: AWS Certified Solutions Architect - Associate
+          start: 2023
+          end: 2026
+          organization: AWS
+          credentialid: 5GNGDF316JE11PCV
+          credentialurl: https://aws.amazon.com/verification
+          credentialname: AWS
+          # details: |
+          #   Details about cert. Lorem ipsum dolor sit amet, consectetur
+          #   adipiscing elit.
+          #   Nullam eget orci purus. Nullam ultrices neque nibh.
+          #   Aenean fermentum, felis vulputate suscipit accumsan,
+          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+          #   Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+          #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
+          #   justo diam viverra velit, sed rhoncus leo leo eu justo.
+          #   Suspendisse placerat risus ante, sed porta nisi blandit at.
+        - name: AWS Certified Cloud Practitioner
+          start: 2022
+          end: 2026
+          organization: AWS
+          credentialid: 8NB9R18K7NF11TS1
+          credentialurl: https://aws.amazon.com/verification
+          credentialname: AWS
+          # details: |
+          #   Older certification. Lorem ipsum dolor sit amet, consectetur
+          #   adipiscing elit.
+          #   Nullam eget orci purus. Nullam ultrices neque nibh.
+          #   Aenean fermentum, felis vulputate suscipit accumsan,
+          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+          #   Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
     intro: >
-      There's nothing like getting your hands dirty to learn something new (like Clojure)
+      There's nothing like getting your hands dirty to learn something
     assignments:
       - title: Wikipedia Dump Analysis in Clojure 
         link: "https://github.com/SoothingDuck/wikipedia-dump-extractor-clojure"
