@@ -49,9 +49,15 @@ sidebar:
         - item: Cycling
           link:
 
-        - item: Piano + Music making
+        - item: Piano
           link:
 
+        - item: Hacking Wargames
+          link: https://overthewire.org/wargames/
+
+        - item: Kaggle competitions
+          link: https://www.kaggle.com/yvanaillet
+            
 career-profile:
     title: Career Profile
     summary: |
