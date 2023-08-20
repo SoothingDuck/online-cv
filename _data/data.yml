@@ -94,7 +94,7 @@ experiences:
         details: |
           New role at Enedis in the datawarehouse architecture team dealing with production process after being promoted to Solution Architect at Teradata. Notable achievements :
           - Proof of concept of tool in Clojure (with <a href="https://github.com/aphyr/clj-antlr">clj-antlr</a>) to detect problems in SQL join performance before they go to production : <b>prevented at least 2 unrequired product joins in production</b>
-          - Time projection of volume growth + resource consumption in time (in Python + PowerBI) : <b>Provided the customer enough information to make the educated decision to buy new Teradata nodes</b>
+          - Capacity planning (Volume + CPU and I/O) of Teradata's Production systems (in Python + PowerBI) : <b>Provided the customer enough information to make the educated decision to buy new Teradata nodes</b>
           - Development of KPIs on Teradata hardware and critical data pipelines to give a better vision to upper management of what is really happening in the system they are paying for (prototype in R, industrialisation in Java + Grafana) : <b>Indicators became the go-to reference for management and product teams to see the bottlenecks in the system (and act on it !)</b>
           - Architecture documentation as a code of the different data products (with PlantUML) : <b>With this documentation at least two product teams stopped maintaining obsoleted data pipeline which were still there only because of turnover and lack of useful documentation</b>
           - Detection of hardware problem on an array of slow disk after a one week production crisis (Python + SQL) : <b>Disks changed, SLA back !</b>
@@ -178,7 +178,7 @@ projects:
     assignments:
       - title: Wikipedia Dump Analysis in Clojure 
         link: "https://github.com/SoothingDuck/wikipedia-dump-extractor-clojure"
-        tagline: "Pretty much work in progress yet good to learn how to deal efficiently with huge data files (~xx Go in uncompressed form) in a reasonnable amount of time, do unit testing, and design command line interface"
+        tagline: "Pretty much work in progress yet good to learn how to deal efficiently with huge data files in a reasonnable amount of time, do unit testing, and design command line interface"
 
       - title: Manic Miner Asset Extraction in Clojure
         link: "https://github.com/SoothingDuck/manic-miner-extractor"
