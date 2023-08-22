@@ -43,11 +43,11 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Hacking Wargames
-          link: https://overthewire.org/wargames/
+        - item: Hacking Wargames (Over The Wire, Hack The Box, ...)
+          link: 
 
-        - item: Kaggle competitions
-          link: https://www.kaggle.com/yvanaillet
+        - item: Bug Bounties (HackerOne, YesWeHack)
+          link: 
 
         - item: Reading
           link:
