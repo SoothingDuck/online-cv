@@ -52,11 +52,11 @@ sidebar:
         - item: Piano
           link:
 
-        - item: Hacking Wargames
-          link: https://overthewire.org/wargames/
+        # - item: Hacking Wargames
+        #   link: https://overthewire.org/wargames/
 
-        - item: Kaggle competitions
-          link: https://www.kaggle.com/yvanaillet
+        # - item: Kaggle competitions
+        #   link: https://www.kaggle.com/yvanaillet
             
 career-profile:
     title: Career Profile
@@ -88,40 +88,40 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Solution Architect
+      - role: <b>Solution Architect</b>
         time: 2019 - Present
         company: Teradata, France (for Enedis, France)
         details: |
-          New role at Enedis in the datawarehouse architecture team dealing with production process after being promoted to Solution Architect at Teradata. Notable achievements :
-          - Proof of concept of tool in Clojure (with <a href="https://github.com/aphyr/clj-antlr">clj-antlr</a>) to detect problems in SQL join performance before they go to production : <b>prevented at least 2 unrequired product joins in production</b>
-          - Capacity planning (Volume + CPU and I/O) of Teradata's Production systems (in Python + PowerBI) : <b>Provided the customer enough information to make the educated decision to buy new Teradata nodes</b>
-          - Development of KPIs on Teradata hardware and critical data pipelines to give a better vision to upper management of what is really happening in the system they are paying for (prototype in R, industrialisation in Java + Grafana) : <b>Indicators became the go-to reference for management and product teams to see the bottlenecks in the system (and act on it !)</b>
-          - Architecture documentation as a code of the different data products (with PlantUML) : <b>With this documentation at least two product teams stopped maintaining obsoleted data pipeline which were still there only because of turnover and lack of useful documentation</b>
-          - Detection of hardware problem on an array of slow disk after a one week production crisis (Python + SQL) : <b>Disks changed, SLA back !</b>
-          - Training of junior developper to SQL best practices in a distributed environnments : <b>Fewer SQL mistakes reaching production</b>
-          - SQL optimisation of critical data pipelines and data products : <b>Reduction of processing time between 5% to 80% (rare cases)</b>
+          New role at Enedis in the datawarehouse architecture team dealing with production workloads after being promoted to Solution Architect at Teradata. Notable achievements :
+          - Maded a proof of concept of a tool in Clojure (with <a href="https://github.com/aphyr/clj-antlr">clj-antlr</a>) to detect problems in SQL join performance before they go to production : <b>prevented at least 2 unrequired product joins in production</b>
+          - Did the capacity planning (Volume + CPU and I/O) of Teradata's Production systems (in R + PowerBI) : <b>Provided the customer enough information to make the educated decision to buy new Teradata nodes</b>
+          - Developed KPIs on Teradata hardware and critical data pipelines to give a better vision to upper management of what is really happening in the system they are paying for (prototype in R, industrialisation in Java + Grafana) : <b>Indicators became the go-to reference for management and product teams to see the bottlenecks in the system (and act on it !)</b>
+          - Initiated the architecture documentation as a code of the different data products (with PlantUML) : <b>With this documentation at least two product teams stopped maintaining obsolete data pipelines which were still there only because of turnover and lack of useful documentation</b>
+          - Among others participations in productions incidents, detected a hardware problem on an array of slow disk after a one week production crisis (Python + SQL) : <b>Disks changed, SLA back !</b>
+          - Trained junior developper to SQL best practices in a distributed environnments : <b>Fewer SQL mistakes reaching production</b>
+          - Optimized critical data pipelines and data products (SQL, Java) : <b>Reduction of processing time between 10% to 80%</b>
 
-      - role: Datalab Technical Expert
+      - role: <b>Datalab Technical Expert</b>
         time: 2014 - 2019
         company: Teradata, France (for Enedis, France)
         details: |
           Work at Enedis Datalab department to carry out several experimental projects for internal customers before going into production, with great satisfaction from Enedis management.
           (awarded at the end by a one shot 25% salary raise and the allocation of a company car along with regular salary increases)
-            - Redesign of SQL engine for aggregation of electricity consumers in France : <b>New engine could aggregate 1 year of data in the same time the former engine took to aggregate 1 week</b>
-            - Used Ansible to automate the deployment of some datalabs (like the aggregation SQL Engine) : <b>Went from a one day manual error prone deployement to 5 minutes click-button robust installation</b>
-            - Work with internal customer to optimize their adhoc SQL queries, R and Python scripts : <b>Sometimes 99% of time savings with the same output result</b>
-            - Training of internal customer and datalab developpers to SQL best practices in a distributed environnments and introduction to R and Python for data analysis: <b>More than 10 sessions with an average of 6 trainees each time</b>
-            - Development of a reactive Web App for Enedis strategy department in R Shiny to show the repartition of energy consumption : <b>Done in a week without prior Shiny knowledge with good customer feedback</b>
+            - Redesigned the SQL engine for aggregation of electricity consumers in France : <b>New engine could aggregate 1 year of data in the same time the former engine took to aggregate 1 week with the same functionalities</b>
+            - Used Ansible to automate the deployment of the aggregation SQL Engine (and some other datalabs) : <b>Went from a one day manual error prone deployement to 5 minutes click-button robust installation</b>
+            - Helped internal customer to optimize their adhoc SQL queries, R and Python scripts : <b>Sometimes 99% of time savings with the same output result</b>
+            - Trained internal customers and datalab developpers to SQL best practices in a distributed environnments and introduction to R and Python for data analysis: <b>More than 10 sessions with an average of 6 trainees each time</b>
+            - Developed of a reactive Web App for Enedis strategy department in R Shiny to show the repartition of energy consumption : <b>Done in a week without prior Shiny knowledge with good customer feedback</b>
               
-      - role: Teradata Expert
+      - role: <b>Teradata Expert</b>
         time: 2008 - 2014
         company: Bouygues Telecom, France
         details: |
           Designated to be trained on Teradata by one of the French experts, had to learn a lot in a short time yet enjoyed it a lot
-            - Optimization of SQL processes and data model developed by suppliers : <b>Saved a lot of money for Bouygues Telecom delaying costly upgrade of Teradata nodes</b>
-            - Optimization of the disaster recovery architecture from a performance and a coverage point of view : <b>Gaps where found and it proved useful during a crisis where all production data had been wiped</b>
-            - Powerpoint reports to management generated with python and SQL : <b>Very popular with management and led to actual decision being taken</b>
-      - role: Early Career
+            - Optimized SQL processes and data model developed by suppliers : <b>Saved a lot of money for Bouygues Telecom delaying costly upgrade of Teradata nodes</b>
+            - Optimized the disaster recovery architecture from a performance and a coverage point of view : <b>Gaps where found and it proved useful during a crisis where all production data had been wiped</b>
+            - Made automated powerpoint reports to management generated with python and SQL of Teradata Systems' health : <b>Very popular with management and led to actual decision being taken</b>
+      - role: <b>Early Career</b>
         time: 2003 - 2008
         company: Bouygues Telecom, BNP Paribas and N9UF Telecom, France
         details: |
